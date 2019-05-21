@@ -95,6 +95,7 @@ body-3
   font-size: 24px;
   margin-bottom: 40px;
   text-align: center;
+  color: #333;
   font-family: Raleway;
 }
 .work__object>li {
@@ -127,6 +128,7 @@ body-3
   letter-spacing: 0.25em;
   text-align: center;
   margin-left: 50px;
+  color: #333;
 }
 .work__bottom__right {
   width: 280px;
