@@ -9,15 +9,12 @@ header
   position: fixed;
   z-index: 999;
   width: 100%;
+  padding: 15px 0 ;
   background-color: #fff;
 }
 .is__inner{
   width: 1100px;
   margin: 0 auto;
-}
-.header__inner {
-  padding: 15px 0 ;
-  background-color: #ffff;
 }
 .thunder {
   color: #c0c0c0;
@@ -43,7 +40,7 @@ body
 -----------------------*/
 .bolt__theme {
   background-color: #f2f2f2;
-  padding: 250px 0;
+  padding: 320px 0 250px;
   text-align: center;
 }
 .bolt__main {
@@ -111,6 +108,7 @@ body-3
 .work__object__img{
   opacity: 0.7;
   transition: 0.3s;
+  display: inline-block;
 }
 .work__object__img:hover {
   opacity: 1;
@@ -120,21 +118,16 @@ body-3
 }
 .work__bottom__left {
   float: left;
+  width: 750px;
 }
 .work__long__text {
-  width: 720px;
   line-height: 40px;
-  font-size: 16px;
-  letter-spacing: 0.25em;
+  font-size: 20px;
   text-align: center;
-  margin-left: 50px;
   color: #333;
 }
-.work__bottom__right {
-  width: 280px;
-  float: right;
-}
 .mail__box {
+  margin-left: 90px;
   padding: 14px 20px;
   font-size: 12px;
   background-color: #74cfae;
@@ -158,7 +151,7 @@ body-4
 }
 .skill__title {
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   color: #fff;
   font-size: 24px;
 }
@@ -179,25 +172,21 @@ body-4
   font-size: 16px;
   text-align: center;
   color: #fff;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 /*--------------------------------
 body-5
 -------------------------*/
-.last__inner {
-  margin: 0 auto;
-  padding: 200px 0 200px;
-  background-color: #f2f2f2;
-}
-.five__main__back {
+.sns__block {
   background-color: #f2f2f2 ;
+  padding: 200px 0 200px;
 }
 .sns-btn {
   display: inline-block;
   font-size: 40px;
 }
-.four__sns {
+.sns__font {
   text-align: center;
 }
 .sns-link-text {
