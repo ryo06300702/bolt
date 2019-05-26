@@ -35,6 +35,7 @@ header
 .header__box:hover {
   color: #333;
 }
+
 /*-------------------------------
 body
 -----------------------*/
@@ -56,6 +57,7 @@ body
 /*----------------------------------
 body-2
 --------------------------*/
+
 .phone__about {
   background-color: #74cfae;
   padding-top: 50px;
@@ -68,9 +70,6 @@ body-2
   color: #fff;
   margin-bottom: 35px;
 }
-.text__block {
-  text-align: center;
-}
 .about__long__text{
   color: #fff;
   font-size: 20px;
@@ -79,6 +78,7 @@ body-2
 }
 .text__block {
   float: right;
+  text-align: center;
 }
 /*---------------------------------
 body-3
@@ -188,6 +188,7 @@ body-5
 }
 .sns__font {
   text-align: center;
+  font-size: 0;
 }
 .sns-link-text {
   color: #74cfae;
@@ -214,4 +215,120 @@ footer
 .footer__main__title {
   color: #fff;
   float: right;
+}
+/*-----------------------------
+pad
+----------------------------*/
+@media screen and (max-width:1200px){
+  .is__inner {
+    width: 97%;
+  }
+  .i__phone {
+    margin-left: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .phone__about {
+    padding-bottom: 25px;
+  }
+  .text__block {
+   float: none;
+  }
+  .about__long__text {
+    display: block;
+    margin: 0 auto;
+  }
+  .work__object>li{
+    margin-right: 0;
+    text-align: center;
+    display: block;
+  }
+  .work__object>li:nth-child(n+5){
+    margin-top: 0;
+  }
+  .work__object__bottom {
+    margin-top: 80px;
+  }
+  .work__bottom__left {
+    float: none;
+    margin: 0 auto;
+  }
+  .mail__box {
+    margin: 0 auto;
+  }
+  .work__bottom__right{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .circle__object>li {
+    float: none;
+    margin-right: 0;
+    margin-top: 88px;
+  }
+  .circle__object>li:first-child {
+    margin-top: 20px;
+  }
+
+  .humberger-shop {
+    display:none;
+  }
+}
+
+/*-----------------------------------
+sp
+------------------------------*/
+@media screen and (max-width:767px){
+  .is__inner {
+    width: 97%;
+  }
+
+  .header__box {
+    padding: 10px;
+    display: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .humberger-shop {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: inline-block;
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 40px;
+    text-align: center;
+  }
+
+  .humberger {
+    font-size: 30px;
+    color: #dedede;
+  }
+
+  .bolt__theme {
+    padding: 160px 0 130px;
+  }
+  .bolt__main{
+    font-size: 80px;
+  }
+  .bolt__sub {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+  .about__long__text {
+   width: auto;
+  }
+  .work__bottom__left {
+    width: auto;
+  }
+  .sns-btn {
+    display: block;
+  }
+  .sns__block {
+    padding: 50px 15px;
+  }
+  .sns-link-text {
+    width: 100%;
+  }
 }
