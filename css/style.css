@@ -200,6 +200,9 @@ body-5
 .sns-link-text:hover {
   background-color: #fff;
 }
+.humberger-shop {
+  display: none;
+}
 /*------------------------------------------
 footer
 ---------------------------------*/
